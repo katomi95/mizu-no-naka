@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>水の中</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="title">
+  <div class="card">
+    <h1>水の中</h1>
+    <p class="lead">あなたの部屋が、水の中になる。</p>
+    <button id="btn-start" disabled>はじめる</button>
+    <p id="xr-status" class="status">WebXR を確認中…</p>
+    <button id="btn-preview" class="sub">PCプレビュー</button>
+    <ul class="howto">
+      <li>Meta Quest 3 のブラウザで、パススルー（MR）で体験する作品です。</li>
+      <li>操作はありません。周りを見回して眺めてください。座ったままで大丈夫です。</li>
+      <li><b>終わるとき：</b>足元の「おわる」をコントローラーで指してトリガー。または Meta ボタン → 終了。</li>
+      <li>音が出ます。周囲の安全を確認してからはじめてください。</li>
+    </ul>
+  </div>
+</div>
+<button id="btn-back" hidden>おわる</button>
+<p id="hint" hidden>ドラッグで見回す</p>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
